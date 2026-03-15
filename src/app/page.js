@@ -5,19 +5,19 @@ export default function Home() {
     <div className="min-h-screen w-full p-8">
       <h1 className="text-3xl text-center font-bold mb-8">The lounge</h1>
       <div className="flex gap-8 w-full">
-        <div className="flex flex-col gap-4 w-1/3">
+        <div className="flex flex-col gap-4 w-1/5">
           <ul className="flex flex-col gap-4">
             <li>
               <a href="#">Home</a>
             </li>
             <li>
-              <a href="#">Genres</a>
+              <a href="/posts">Posts</a>
             </li>
             <li>
               <a href="#">Top 100</a>
             </li>
             <li>
-              <a href="#">New Releases</a>
+              <a href="/new-releases">New Releases</a>
             </li>
             <li>
               <a href="#">Chat</a>
@@ -27,7 +27,10 @@ export default function Home() {
             </li>
           </ul>
         </div>
-        <div className="w-2/3">Stories</div>
+        <div className="w-4/5">
+          <h2 className="text-2xl font-bold mb-4">Stories</h2>
+          <p>Welcome to the Stories section!</p>
+        </div>
       </div>
     </div>
   );
